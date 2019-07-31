@@ -81,9 +81,8 @@ function buildTable(countries, newValue) {
 
     if (!newValue) {
         initAutocomplete(countriesNames);
-        observeTable();
     }
-
+    observeTable();
 }
 
 $(document).ready(() => {
